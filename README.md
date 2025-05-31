@@ -26,5 +26,5 @@ A simple and clean Expense Tracker mobile app built using **React Native** with 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AmayMalviya/Expense-Tracker-React-Native.git
+git clone [https://github.com/AmayMalviya/Expense-Tracker-React-Native.git](https://github.com/AmayMalviya/Expense-Tracker-React-Native.git)
 cd expense-tracker-app
