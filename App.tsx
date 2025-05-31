@@ -28,10 +28,11 @@ export default function App() {
         <Stack.Screen name="AddExpense" options={{ title: 'Add Expense' }}>
           {props => (
             <AddExpense
-              {...props}
-              expenses={expenses}
-              setExpenses={setExpenses}
-            />
+            switchToView={function (): void {
+              throw new Error('Function not implemented.');
+            } } {...props}
+            expenses={expenses}
+            setExpenses={setExpenses}            />
           )}
         </Stack.Screen>
         <Stack.Screen name="ViewExpenses" options={{ title: 'View Expenses' }}>
