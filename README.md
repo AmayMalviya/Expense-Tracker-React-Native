@@ -13,14 +13,6 @@ A simple and clean Expense Tracker mobile app built using **React Native** with 
 
 ---
 
-## 📷 Screenshots
-
-<!-- Add your own screenshots or screen recording here -->
-![Add Expense](./screenshots/add_expense.png)
-![View Expenses](./screenshots/view_expenses.png)
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
