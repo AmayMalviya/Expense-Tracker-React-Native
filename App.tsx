@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import AddExpenseScreen from './src/screens/AddExpense';
 import ViewExpensesScreen from './src/screens/ViewExpense';
-import { Expense } from './src/types';
+import { Expense } from '/Users/amaymalviya/Documents/Development/React Native/ExpenseTracker/src/types.ts';
 
 export default function App() {
   const [screen, setScreen] = useState<'add' | 'view'>('add');
