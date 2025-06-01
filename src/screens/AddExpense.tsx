@@ -94,7 +94,7 @@ export default function AddExpense({ expenses, setExpenses, switchToView }: Prop
         />
         <TextInput
           style={styles.input}
-          placeholder="Date (YYYY-MM-DD)"
+          placeholder="Date (DD/MM/YYYY)"
           value={date}
           onChangeText={setDate}
           placeholderTextColor="#777"
